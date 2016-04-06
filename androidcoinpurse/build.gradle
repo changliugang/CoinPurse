@@ -3,7 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 // 这个version是区分library版本的，因此当我们需要更新library时记得修改这个version, 这个version影响后面的引用
-version = "1.0.1"
+version = "1.0.2"
 
 android {
     compileSdkVersion 23
@@ -24,6 +24,10 @@ android {
     }
 }
 
+tasks.withType(JavaCompile) {
+    options.encoding = "GBK"
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
@@ -34,7 +38,7 @@ dependencies {
 
 def siteUrl = 'https://github.com/changliugang/CoinPurse'      // 项目的主页
 def gitUrl = 'https://github.com/changliugang/CoinPurse.git'   // Git仓库的url
-group = "cn.change.com.androidcoinpurse"
+group = "com.change.cn.androidcoinpurse"
 
 install {
     repositories.mavenInstaller {
@@ -68,12 +72,14 @@ install {
         }
     }
 }
+
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
 }
 task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
+    options.encoding = "utf-8"
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
 }
 task javadocJar(type: Jar, dependsOn: javadoc) {

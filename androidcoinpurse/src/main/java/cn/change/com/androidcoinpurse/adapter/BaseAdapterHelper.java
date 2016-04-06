@@ -37,18 +37,7 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 /**
- * Allows an abstraction of the ViewHolder pattern.<br>
- * <br>
- * <p/>
- * <b>Usage</b>
- * <p/>
- * 
- * <pre>
- * return BaseAdapterHelper.get(context, convertView, parent, R.layout.item)
- * 		.setText(R.id.tvName, contact.getName())
- * 		.setText(R.id.tvEmails, contact.getEmails().toString())
- * 		.setText(R.id.tvNumbers, contact.getNumbers().toString()).getView();
- * </pre>
+ * Allows an abstraction of the ViewHolder pattern.
  */
 public class BaseAdapterHelper {
 
@@ -106,7 +95,7 @@ public class BaseAdapterHelper {
 
 	/**
 	 * This method allows you to retrieve a view and perform custom operations
-	 * on it, not covered by the BaseAdapterHelper.<br/>
+	 * on it, not covered by the BaseAdapterHelper。
 	 * If you think it's a common use case, please consider creating a new issue
 	 * at https://github.com/JoanZapata/base-adapter-helper/issues.
 	 * 

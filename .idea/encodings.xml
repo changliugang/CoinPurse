@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/adapter/BaseQuickAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/adapter/QuickAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/cache/ACache.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/recyclerview/adapter/BaseAdapterHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/recyclerview/adapter/BaseQuickAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/recyclerview/adapter/QuickAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/utils/DateUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/utils/DeviceUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/androidcoinpurse/src/main/java/cn/change/com/androidcoinpurse/utils/SoftKBUtil.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

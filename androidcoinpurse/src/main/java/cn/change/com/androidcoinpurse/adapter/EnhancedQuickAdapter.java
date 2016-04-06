@@ -9,9 +9,8 @@ import java.util.List;
  * method params, which allows you to know if you are adapting the new view to
  * the same item or not, and therefore make a difference between dataset changed
  * / dataset invalidated.
- * <p/>
  * Abstraction class of a BaseAdapter in which you only need to provide the
- * convert() implementation.<br/>
+ * convert() implementation.
  * Using the provided BaseAdapterHelper, your code is minimalist.
  * 
  * @param <T>
